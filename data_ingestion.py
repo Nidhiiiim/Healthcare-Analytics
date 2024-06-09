@@ -13,3 +13,5 @@ healthcare_data.show(10)
 healthcare_data.printSchema()
 
 healthcare_data.describe().show()
+
+
