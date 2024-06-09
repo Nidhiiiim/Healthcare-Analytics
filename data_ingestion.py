@@ -8,9 +8,8 @@ healthcare_data = spark.read.csv("/Users/nidhimishra/Downloads/healthcare_datase
 
 healthcare_data.show(10)
 
-#printing Schema
+# printing Schema
 
 healthcare_data.printSchema()
-
 
 healthcare_data.describe().show()
